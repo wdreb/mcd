@@ -1,0 +1,31 @@
+# 密钥与本地环境（禁止提交）
+.env
+.env.*
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 日志与产物
+logs/
+*.log
+reports/generated/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# WorkBuddy 运行时数据（非项目源码，禁止提交）
+.workbuddy/
+
+# 运行时产物
+reports/
+
+# 官方参考下载（赛事资料，非项目源码）
+*.zip
+mcd-developer-innovation-challenge-main/
+mcd-mcp-server-main/
